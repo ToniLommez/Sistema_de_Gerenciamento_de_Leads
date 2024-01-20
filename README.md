@@ -50,15 +50,12 @@ Esta seção apresenta as várias interfaces do sistema de gerenciamento de lead
 
 A aplicação oferece uma interface única e simplificada. Na tela principal, todos os leads são apresentados de forma paginada, com uma barra de pesquisa para facilitar a filtragem. Funcionalidades para edição e criação de novos leads estão disponíveis, assim como um sistema de Dark Mode integrado para conforto visual.
 
-Tela principal com tema claro:
 ![Completo Claro](Prints/completo_claro.png)
 
-Tela principal com tema escuro:
 ![Completo Escuro](Prints/completo_escuro.png)
 
 Ao selecionar a opção "cadastrar", um modal é exibido para o registro de um novo lead. A integridade dos dados é garantida por meio de validações em todos os campos, como a verificação de um CPF válido. Os outros campos têm validações básicas, como o tamanho máximo permitido. A aplicação também utiliza uma API externa para o preenchimento automático do endereço com base no CEP fornecido.
 
-Tela de cadastro com tema claro:
 ![Cadastro Claro](Prints/cadastro_claro.png)
 
 ### Funcionalidades Avançadas do Formulário
@@ -78,40 +75,37 @@ Os formulários da aplicação são projetados para aprimorar a experiência do 
 
 Quando um lead é selecionado na lista, o modal é exibido preenchido com as informações existentes, e o campo CPF fica bloqueado por ser a chave primária do banco de dados e da API. Além da opção de salvar para editar as informações do lead, agora também é possível excluí-lo do banco de dados.
 
-Tela de edição de lead:
 ![Editar Claro](Prints/editar_claro.png)
 
 ### Telas de Pesquisa
 
 A funcionalidade de pesquisa permite filtrar os leads por qualquer atributo exibido. Após realizar uma busca, um botão é apresentado para retornar à visualização paginada com todos os leads.
 
-Tela de pesquisa avançada:
 ![Sistema Pesquisa](Prints/sistema_pesquisa.png)
 
-Tela de resultados da pesquisa:
 ![Pesquisa](Prints/pesquisa.png)
 
 ### Responsividade
 
 Desenvolvida com a abordagem desktop-first, a aplicação é otimizada para a plataforma de uso principal, mas mantém responsividade em uma variedade de dispositivos e tamanhos de tela.
 
-Tela em um dispositivo móvel:
+- Tela em um dispositivo móvel:  
 ![Viewport Mobile](Prints/viewport_mobile.png)
 
-Tela em um notebook:
+- Tela em um notebook:  
 ![Viewport Notebook](Prints/viewport_notebook.png)
 
-Tela em um tablet:
+- Tela em um tablet:  
 ![Viewport Tablet](Prints/viewport_tablet.png)
 
 A responsividade é estendida aos formulários de cadastro de leads, assegurando uma experiência de usuário consistente em diferentes contextos.
 
-Formulário em tela larga:
+- Formulário em tela larga:  
 ![Forms Largo](Prints/forms_largo.png)
 
-Formulário em tablet:
+- Formulário em tablet:  
 ![Forms Tablet](Prints/forms_tablet.png)
 
-Formulário em mobile:
+- Formulário em mobile:  
 ![Forms Mobile](Prints/forms_mobile.png)
 
