@@ -61,8 +61,20 @@ Ao selecionar a opção "cadastrar", um modal é exibido para o registro de um n
 Tela de cadastro com tema claro:
 ![Cadastro Claro](Prints/cadastro_claro.png)
 
-Variações de estilos de formulário:
+### Funcionalidades Avançadas do Formulário
+
+Os formulários da aplicação são projetados para aprimorar a experiência do usuário por meio de funcionalidades intuitivas de auto-preenchimento e validação em tempo real:
+
+- **Auto-completar com Símbolos:** Os campos numéricos, como o DDD do telefone e a pontuação do CPF, são automaticamente completados com símbolos necessários (parênteses, hífens, pontos etc.), permitindo uma entrada de dados rápida e formatada corretamente.
+
+- **Preenchimento Automático do CEP:** Utilizando uma API externa, o sistema preenche automaticamente o endereço ao inserir um CEP válido, economizando tempo e reduzindo erros de entrada.
+
+- **Validação em Tempo Real:** Ao digitar valores, a validação em tempo real alerta sobre quaisquer entradas inválidas, garantindo que todas as informações submetidas estejam corretas antes de prosseguir.
+
+Abaixo está uma captura de tela mostrando a interface do formulário com exemplos de auto-completar e mensagens de erro para valores inválidos:
+
 ![Nuancias Forms](Prints/nuancias_forms.png)
+
 
 ### Telas de Edição
 
