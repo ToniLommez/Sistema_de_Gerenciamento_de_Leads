@@ -3,10 +3,10 @@ Este repositório contém a API e o Front-End para um sistema de gerenciamento d
 
 ## Back-End
 ### Tecnologias Utilizadas
-Python 3.12  
-Django  
-Django REST Framework  
-Django-Cors-Headers  
+* Python 3.12
+* Django
+* Django REST Framework
+* Django-Cors-Headers
 
 ### Descrição
 A API do Back-End segue o padrão RESTful, implementado com o Django e armazena dados em um banco de dados SQLite pré-populado com dados fictícios para teste.
@@ -23,10 +23,10 @@ A API do Back-End segue o padrão RESTful, implementado com o Django e armazena 
 
 ## Front-End
 ### Tecnologias Utilizadas
-. HTML
-. CSS
-. JavaScript Vanilla
-. Bootstrap 5.3.2
+* HTML
+* CSS
+* JavaScript Vanilla
+* Bootstrap 5.3.2
 
 ### Descrição
 O Front-End é uma interface de usuário web simples, construída sem o uso de frameworks adicionais, exceto pelo Bootstrap para controle de grid e responsividade.
