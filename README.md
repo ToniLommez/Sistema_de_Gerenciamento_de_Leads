@@ -14,8 +14,8 @@ os dados são armazenados através de um banco de dados SQLite que já esta pree
 
 ## Configurando o servidor
 Para instalar as bibliotecas necessarias para rodar a aplicação basta utilizar os comandos:  
-```pip install django```
-```pip install djangorestframework```
+```pip install django```  
+```pip install djangorestframework```  
 ```pip install django-cors-headers```
 
 Após a instalação basta se direcionar ao diretorio:  
