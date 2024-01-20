@@ -39,7 +39,13 @@ O Front-End é uma interface de usuário web simples, construída sem o uso de f
 ## Execução
 Para visualizar o Front-End, abra o arquivo `Front-End/index.html` em um navegador web.
 
-# Apresentação das funcionalidades da aplicação
+## Ambientes testados
+Os ambientes no qual a aplicação foi testada foram:
+- Windows 11, Opera GX
+- Windows 11, Google Chrome
+- Windows 11, Microsoft Edge
+
+# Apresentação
 Abaixo estão algumas capturas de tela da aplicação, destacando as diferentes funcionalidades e interfaces de usuário:
 
 ## Telas da Aplicação
