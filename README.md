@@ -37,26 +37,26 @@ Para visualizar o Front-End, abra o arquivo `Front-End/index.html` em um navegad
 
 # Apresentação das funcionalidades da aplicação
 ## Telas de Cadastro
-- ![Cadastro Claro](Prints/cadastro_claro)
-- ![Completo Claro](Prints/completo_claro)
-- ![Completo Escuro](Prints/completo_escuro)
+- ![Cadastro Claro](Prints/cadastro_claro.png)
+- ![Completo Claro](Prints/completo_claro.png)
+- ![Completo Escuro](Prints/completo_escuro.png)
 
 ## Telas de Edição
-- ![Editar Claro](Prints/editar_claro)
+- ![Editar Claro](Prints/editar_claro.png)
 
 ## Telas de Formulários
-- ![Forms Largo](Prints/forms_largo)
-- ![Forms Mobile](Prints/forms_mobile)
-- ![Forms Tablet](Prints/forms_tablet)
+- ![Forms Largo](Prints/forms_largo.png)
+- ![Forms Mobile](Prints/forms_mobile.png)
+- ![Forms Tablet](Prints/forms_tablet.png)
 
 ## Telas de Pesquisa
-- ![Sistema Pesquisa](Prints/sistema_pesquisa)
-- ![Pesquisa](Prints/pesquisa)
+- ![Sistema Pesquisa](Prints/sistema_pesquisa.png)
+- ![Pesquisa](Prints/pesquisa.png)
 
 ## Telas Responsivas
-- ![Viewport Mobile](Prints/viewport_mobile)
-- ![Viewport Notebook](Prints/viewport_notebook)
-- ![Viewport Tablet](Prints/viewport_tablet)
+- ![Viewport Mobile](Prints/viewport_mobile.png)
+- ![Viewport Notebook](Prints/viewport_notebook.png)
+- ![Viewport Tablet](Prints/viewport_tablet.png)
 
 ## Outras Telas
-- ![Nuancias Forms](Prints/nuancias_forms)
+- ![Nuancias Forms](Prints/nuancias_forms.png)
