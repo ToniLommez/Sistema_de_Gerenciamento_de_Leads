@@ -1,31 +1,35 @@
-# Sistema_de_Gerenciamento_de_Leads
-API e Front-End para sistema de gerenciamento de leads de uma empresa  
-Construido utilizando o modelo de Back-End/API e Front-End
+# Sistema de Gerenciamento de Leads
+Este repositório contém a API e o Front-End para um sistema de gerenciamento de leads de uma empresa. O projeto é dividido em duas partes principais: um Back-End construído em Python usando Django e um Front-End utilizando JavaScript vanilla, HTML e CSS.
 
-A api é construido em Python e o front utiliza javascript vanilla
+## Back-End
+### Tecnologias Utilizadas
+Python 3.12  
+Django  
+Django REST Framework  
+Django-Cors-Headers  
 
-# Back-End
-O sistema é feito em Python 3.12 utilizando o framework Django  
-Para a sua execução é necessario a instalação de 3 bibliotecas complementares entre si, sendo estas:  
-Django, Django REST Framework e Django-Cors-Headers
+### Descrição
+A API do Back-End segue o padrão RESTful, implementado com o Django e armazena dados em um banco de dados SQLite pré-populado com dados fictícios para teste.
 
-A API utiliza um sistema RESTful com CRUD no padrão django,  
-os dados são armazenados através de um banco de dados SQLite que já esta preenchido com alguns dados ficticios para teste do servidor
+### Instalação e Configuração
+1. Instale as dependências necessárias:  
+```pip install django djangorestframework django-cors-headers```
 
-## Configurando o servidor
-Para instalar as bibliotecas necessarias para rodar a aplicação basta utilizar os comandos:  
-```pip install django```  
-```pip install djangorestframework```  
-```pip install django-cors-headers```
+2. Navegue até o diretório do Back-End:  
+```cd Back-End/```
 
-Após a instalação basta se direcionar ao diretorio:  
-`Back-End/`  
-Estando no diretorio para rodar o servidor localmente basta utilizar o comando:  
-```python manage.py runserver```  
+3. Inicie o servidor localmente:  
+```python manage.py runserver```
 
-# Front-End
-A parte visual da aplicação foi construida em HTML, CSS e Javascript sem ****nenhuma utilização de framework****  
-Foi utilizada a biblioteca bootstrap _5.3.2_ para controle de grid e responsividade.
+## Front-End
+### Tecnologias Utilizadas
+. HTML
+. CSS
+. JavaScript Vanilla
+. Bootstrap 5.3.2
 
-## Abrindo o Front-End
-Devido a natureza simples da utilização do frontend sem framework para utiliza-lo basta abrir o arquivo `Front-End/index.html`
+### Descrição
+O Front-End é uma interface de usuário web simples, construída sem o uso de frameworks adicionais, exceto pelo Bootstrap para controle de grid e responsividade.
+
+### Execução
+Para visualizar o Front-End, abra o arquivo **`Front-End/index.html`** em um navegador web.
