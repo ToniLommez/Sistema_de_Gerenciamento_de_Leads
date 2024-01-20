@@ -22,14 +22,15 @@ A API do Back-End segue o padrão RESTful, implementado com o Django e armazena 
 ```python manage.py runserver```
 
 ## Front-End
+
+### Descrição
+O Front-End é uma interface de usuário web simples, construída sem o uso de frameworks adicionais, exceto pelo Bootstrap para controle de grid e responsividade.
+
 ### Tecnologias Utilizadas
 * HTML
 * CSS
 * JavaScript Vanilla
 * Bootstrap 5.3.2
 
-### Descrição
-O Front-End é uma interface de usuário web simples, construída sem o uso de frameworks adicionais, exceto pelo Bootstrap para controle de grid e responsividade.
-
 ### Execução
-Para visualizar o Front-End, abra o arquivo **`Front-End/index.html`** em um navegador web.
+Para visualizar o Front-End, abra o arquivo `Front-End/index.html` em um navegador web.
