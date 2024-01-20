@@ -89,23 +89,29 @@ A funcionalidade de pesquisa permite filtrar os leads por qualquer atributo exib
 
 Desenvolvida com a abordagem desktop-first, a aplicação é otimizada para a plataforma de uso principal, mas mantém responsividade em uma variedade de dispositivos e tamanhos de tela.
 
-- Tela em um dispositivo móvel:  
-![Viewport Mobile](Prints/viewport_mobile.png)
+- Tela em um notebook:
 
-- Tela em um notebook:  
 ![Viewport Notebook](Prints/viewport_notebook.png)
 
-- Tela em um tablet:  
+- Tela em um tablet:
+
 ![Viewport Tablet](Prints/viewport_tablet.png)
+
+- Tela em um dispositivo móvel:
+
+![Viewport Mobile](Prints/viewport_mobile.png)
 
 A responsividade é estendida aos formulários de cadastro de leads, assegurando uma experiência de usuário consistente em diferentes contextos.
 
-- Formulário em tela larga:  
+- Formulário em tela larga:
+
 ![Forms Largo](Prints/forms_largo.png)
 
-- Formulário em tablet:  
+- Formulário em tablet:
+
 ![Forms Tablet](Prints/forms_tablet.png)
 
-- Formulário em mobile:  
+- Formulário em mobile:
+
 ![Forms Mobile](Prints/forms_mobile.png)
 
