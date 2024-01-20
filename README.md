@@ -33,7 +33,7 @@ O Front-End é uma interface de usuário web simples, construída sem o uso de f
 * Bootstrap 5.3.2
 
 ## APIs conectadas
-- [LeadsAPI]: (servidor fornecido junto da aplicação)
+- LeadsAPI: Servidor fornecido junto da aplicação.
 - [ViaCEP](https://viacep.com.br): Utilizada para realizar consultas de endereços a partir de CEPs brasileiros.
 
 ## Execução
@@ -42,33 +42,66 @@ Para visualizar o Front-End, abra o arquivo `Front-End/index.html` em um navegad
 # Apresentação das funcionalidades da aplicação
 Abaixo estão algumas capturas de tela da aplicação, destacando as diferentes funcionalidades e interfaces de usuário:
 
-## Telas de Cadastro
-A aplicação é leve e simples, sendo uma unica tela principal contendo todos os leads paginados com uma barra de pesquisa para filtragem, a possibilidade de editar e criar novos leads e por fim contamos com um sistema de Dark-Mode embutido
+## Telas da Aplicação
+
+Esta seção apresenta as várias interfaces do sistema de gerenciamento de leads, demonstrando a experiência do usuário em diferentes funcionalidades e dispositivos.
+
+### Telas de Cadastro
+
+A aplicação oferece uma interface única e simplificada. Na tela principal, todos os leads são apresentados de forma paginada, com uma barra de pesquisa para facilitar a filtragem. Funcionalidades para edição e criação de novos leads estão disponíveis, assim como um sistema de Dark Mode integrado para conforto visual.
+
+Tela principal com tema claro:
 ![Completo Claro](Prints/completo_claro.png)
+
+Tela principal com tema escuro:
 ![Completo Escuro](Prints/completo_escuro.png)
 
-Clicando-se em "cadastrar" é possivel abrir um modal para registro de um novo lead,  
-É importante dizer que existe verificação de validação para todos os campos, mantendo-se assim a integridade do banco de dados, como por exemplo
-Validação de cpf, portanto ****o cpf informado devera ser valido****. Os demais campos possuem verificações basicas como tamanho maximo.  
-Além disso também é utilizada uma API externa para preenchimento automatico do endereço através do CEP
-- ![Cadastro Claro](Prints/cadastro_claro.png)
+Ao selecionar a opção "cadastrar", um modal é exibido para o registro de um novo lead. A integridade dos dados é garantida por meio de validações em todos os campos, como a verificação de um CPF válido. Os outros campos têm validações básicas, como o tamanho máximo permitido. A aplicação também utiliza uma API externa para o preenchimento automático do endereço com base no CEP fornecido.
 
-## Telas de Edição
-- ![Editar Claro](Prints/editar_claro.png)
+Tela de cadastro com tema claro:
+![Cadastro Claro](Prints/cadastro_claro.png)
 
-## Telas de Formulários
-- ![Forms Largo](Prints/forms_largo.png)
-- ![Forms Mobile](Prints/forms_mobile.png)
-- ![Forms Tablet](Prints/forms_tablet.png)
+Variações de estilos de formulário:
+![Nuancias Forms](Prints/nuancias_forms.png)
 
-## Telas de Pesquisa
-- ![Sistema Pesquisa](Prints/sistema_pesquisa.png)
-- ![Pesquisa](Prints/pesquisa.png)
+### Telas de Edição
 
-## Telas Responsivas
-- ![Viewport Mobile](Prints/viewport_mobile.png)
-- ![Viewport Notebook](Prints/viewport_notebook.png)
-- ![Viewport Tablet](Prints/viewport_tablet.png)
+Quando um lead é selecionado na lista, o modal é exibido preenchido com as informações existentes, e o campo CPF fica bloqueado por ser a chave primária do banco de dados e da API. Além da opção de salvar para editar as informações do lead, agora também é possível excluí-lo do banco de dados.
 
-## Outras Telas
-- ![Nuancias Forms](Prints/nuancias_forms.png)
+Tela de edição de lead:
+![Editar Claro](Prints/editar_claro.png)
+
+### Telas de Pesquisa
+
+A funcionalidade de pesquisa permite filtrar os leads por qualquer atributo exibido. Após realizar uma busca, um botão é apresentado para retornar à visualização paginada com todos os leads.
+
+Tela de pesquisa avançada:
+![Sistema Pesquisa](Prints/sistema_pesquisa.png)
+
+Tela de resultados da pesquisa:
+![Pesquisa](Prints/pesquisa.png)
+
+### Responsividade
+
+Desenvolvida com a abordagem desktop-first, a aplicação é otimizada para a plataforma de uso principal, mas mantém responsividade em uma variedade de dispositivos e tamanhos de tela.
+
+Tela em um dispositivo móvel:
+![Viewport Mobile](Prints/viewport_mobile.png)
+
+Tela em um notebook:
+![Viewport Notebook](Prints/viewport_notebook.png)
+
+Tela em um tablet:
+![Viewport Tablet](Prints/viewport_tablet.png)
+
+A responsividade é estendida aos formulários de cadastro de leads, assegurando uma experiência de usuário consistente em diferentes contextos.
+
+Formulário em tela larga:
+![Forms Largo](Prints/forms_largo.png)
+
+Formulário em tablet:
+![Forms Tablet](Prints/forms_tablet.png)
+
+Formulário em mobile:
+![Forms Mobile](Prints/forms_mobile.png)
+
