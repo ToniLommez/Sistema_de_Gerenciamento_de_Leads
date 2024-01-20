@@ -39,9 +39,11 @@ Para visualizar o Front-End, abra o arquivo `Front-End/index.html` em um navegad
 Abaixo estão algumas capturas de tela da aplicação, destacando as diferentes funcionalidades e interfaces de usuário:
 
 ## Telas de Cadastro
-- `Cadastro Claro`: Esta tela mostra o formulário de cadastro de leads com um tema claro.
-- ![Completo Claro](Prints/completo_claro.png)
-- ![Completo Escuro](Prints/completo_escuro.png)
+- A aplicação é leve e simples, sendo uma unica tela principal contendo todos os leads paginados com uma barra de pesquisa para filtragem, a possibilidade de editar e criar novos leads e por fim contamos com um sistema de Dark-Mode embutido
+![Completo Claro](Prints/completo_claro.png)
+![Completo Escuro](Prints/completo_escuro.png)
+
+
 - ![Cadastro Claro](Prints/cadastro_claro.png)
 
 ## Telas de Edição
