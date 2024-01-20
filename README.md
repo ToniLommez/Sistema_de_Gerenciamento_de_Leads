@@ -71,8 +71,6 @@ Os formulários da aplicação são projetados para aprimorar a experiência do 
 
 - **Validação em Tempo Real:** Ao digitar valores, a validação em tempo real alerta sobre quaisquer entradas inválidas, garantindo que todas as informações submetidas estejam corretas antes de prosseguir.
 
-Abaixo está uma captura de tela mostrando a interface do formulário com exemplos de auto-completar e mensagens de erro para valores inválidos:
-
 ![Nuancias Forms](Prints/nuancias_forms.png)
 
 
