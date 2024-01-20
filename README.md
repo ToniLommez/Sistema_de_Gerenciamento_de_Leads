@@ -36,10 +36,13 @@ O Front-End é uma interface de usuário web simples, construída sem o uso de f
 Para visualizar o Front-End, abra o arquivo `Front-End/index.html` em um navegador web.
 
 # Apresentação das funcionalidades da aplicação
+Abaixo estão algumas capturas de tela da aplicação, destacando as diferentes funcionalidades e interfaces de usuário:
+
 ## Telas de Cadastro
-- ![Cadastro Claro](Prints/cadastro_claro.png)
+- `Cadastro Claro`: Esta tela mostra o formulário de cadastro de leads com um tema claro.
 - ![Completo Claro](Prints/completo_claro.png)
 - ![Completo Escuro](Prints/completo_escuro.png)
+- ![Cadastro Claro](Prints/cadastro_claro.png)
 
 ## Telas de Edição
 - ![Editar Claro](Prints/editar_claro.png)
